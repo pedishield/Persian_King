@@ -1,6 +1,6 @@
 do
 
---— By @ali_ghoghnoos ;)
+--— By @KinG_SuPeR_AdMiN_SHIELD ;)
 local function callback(extra, success, result)
   vardump(success)
   vardump(result)
@@ -58,5 +58,5 @@ end
 --  ||           ||            \\         //               //
 --  ||           ||-_-_-_-_     \\-_-_-_-//    -_-_-_-_-_-//
 --
---By @ali_ghoghnoos
---@telemanager_ch
+--By @KinG_SuPeR_AdMiN_SHIELD
+--@tel_shield
