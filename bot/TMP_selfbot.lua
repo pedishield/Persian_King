@@ -321,6 +321,8 @@ This command will send text to [group_id]
 
 » Only owner can use res,setowner,promote,demote and log commands
 
+🇸 🇭 🇮 🇪 🇱 🇩 ™
+
 ]],
     help_text = [[
 Commands list :
