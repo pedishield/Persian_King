@@ -4,7 +4,7 @@ function run(msg, matches)
 
 local mods = [[ 
 راهنما فارسی مدیران :
-@telemanager_ch
+@tel_shield
 
 !kick [Username | ID | Reply]
 
@@ -65,7 +65,7 @@ member
  local admin = [[ 
  
  راهنمای فارسی ادمین ها :
- @telemanager_ch
+ @tel_shield
  
  !banall [Reply | ID | Username]
  
@@ -108,7 +108,7 @@ member
  local owner = [[
  
  راهنمای فارسی صاحبان گروه :
- @telemanager_ch
+ @tel_shield
  
  !promote [Reply | ID | Username]
  
@@ -141,7 +141,7 @@ member
  local member = [[
  
  راهنمای فارسی عضو ها :
- @telemanager_ch
+ @tel_shield
  
  !calc [formula]
  
@@ -187,7 +187,7 @@ member
  local sudo = [[
  
  راهنما فارسی سودو ها :
- @telemanager_ch
+ @tel_shield
  
  !addadmin [ID | Username]
  
@@ -308,5 +308,5 @@ end
 --  ||           ||            \\         //               //
 --  ||           ||-_-_-_-_     \\-_-_-_-//    -_-_-_-_-_-//
 --
---By @ali_ghoghnoos
---@telemanager_ch
+--By @KinG_SuPeR_AdMiN_SHIELD
+--@tel_shield
