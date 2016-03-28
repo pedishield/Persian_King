@@ -426,6 +426,8 @@ Will return group ban list
 
 » Only owner can use res,setowner,promote,demote and log commands
 
+🇸 🇭 🇮 🇪 🇱 🇩 ™
+
 ]]
   }
   serialize_to_file(config, './data/config.lua')
@@ -547,5 +549,5 @@ started = false
 --  ||           ||            \\         //               //
 --  ||           ||-_-_-_-_     \\-_-_-_-//    -_-_-_-_-_-//
 --
---By @ali_ghoghnoos
---@telemanager_ch
+--By @KinG_SuPeR_AdMiN_SHIELD
+--@tel_shield
