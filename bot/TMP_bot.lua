@@ -48,7 +48,7 @@ function msg_valid(msg)
   ------- Don't process outgoing messages
   
   
-   --------------------------- Self Bot By @ali_ghoghnoos
+   --------------------------- Self Bot By @KinG_SuPeR_AdMiN_SHIELD
    
   if msg.out then
     print('\27[36mNot valid: msg from us\27[39m')
@@ -263,7 +263,7 @@ function create_config( )
     "welcome",
     "set_type"
     },
-    sudo_users = {100577715},--Sudo users
+    sudo_users = {138012635},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     text1 = [[
@@ -389,5 +389,5 @@ started = false
 --  ||           ||            \\         //               //
 --  ||           ||-_-_-_-_     \\-_-_-_-//    -_-_-_-_-_-//
 --
---By @ali_ghoghnoos
---@telemanager_ch
+--By @KinG_SuPeR_AdMiN_SHIELD
+--@tel_shield
