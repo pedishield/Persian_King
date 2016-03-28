@@ -1,6 +1,6 @@
 
 do
-local ali_ghoghnoos = 100577715 --put your id here(BOT OWNER ID)
+local SUD0_SHIELD_PoWeR = 138012635 --put your id here(BOT OWNER ID)
 
 local function setrank(msg, name, value) -- setrank function
   local hash = nil
@@ -25,7 +25,7 @@ local function res_user_callback(extra, success, result) -- /info <username> fun
 	local hash = 'rank:'..extra.chat2..':variables'
 	local value = redis:hget(hash, result.id)
     if not value then
-	 if result.id == tonumber(ali_ghoghnoos) then
+	 if result.id == tonumber(SUD0_SHIELD_PoWeR) then
 	   text = text..'مقام : مدیر کل ربات (Executive Admin) \n\n'
 	  elseif is_admin2(result.id) then
 	   text = text..'مقام : ادمین ربات (Admin) \n\n'
@@ -64,7 +64,7 @@ local function action_by_id(extra, success, result)  -- /info <ID> function
   local hash = 'rank:'..extra.chat2..':variables'
   local value = redis:hget(hash, result.id)
   if not value then
-	 if result.id == tonumber(ali_ghoghnoos) then
+	 if result.id == tonumber(SUD0_SHIELD_PoWeR) then
 	   text = text..'مقام : مدیر کل ربات (Executive Admin) \n\n'
 	  elseif is_admin2(result.id) then
 	   text = text..'مقام : ادمین ربات (Admin) \n\n'
@@ -102,7 +102,7 @@ local function action_by_reply(extra, success, result)-- (reply) /info  function
 	local hash = 'rank:'..result.to.id..':variables'
 		local value = redis:hget(hash, result.from.id)
 		 if not value then
-		    if result.from.id == tonumber(ali_ghoghnoos) then
+		    if result.from.id == tonumber(SUD0_SHIELD_PoWeR) then
 		       text = text..'مقام : مدیر کل ربات (Executive Admin) \n\n'
 		     elseif is_admin2(result.from.id) then
 		       text = text..'مقام : ادمین ربات (Admin) \n\n'
@@ -170,7 +170,7 @@ local function run(msg, matches)
 	if hash then
 	  local value = redis:hget(hash, msg.from.id)
 	  if not value then
-		if msg.from.id == tonumber(ali_ghoghnoos) then
+		if msg.from.id == tonumber(SUD0_SHIELD_PoWeR) then
 		 text = text..'مقام : مدیر کل ربات (Executive Admin) \n\n'
 		elseif is_sudo(msg) then
 		 text = text..'مقام : ادمین ربات (Admin) \n\n'
@@ -265,5 +265,5 @@ end
 --  ||           ||            \\         //               //
 --  ||           ||-_-_-_-_     \\-_-_-_-//    -_-_-_-_-_-//
 --
---By @ali_ghoghnoos
---@telemanager_ch
+--By @KinG_SuPeR_AdMiN_SHIELD
+--@tel_shield
