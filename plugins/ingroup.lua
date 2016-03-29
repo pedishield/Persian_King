@@ -1529,11 +1529,11 @@ local function run(msg, matches)
           msgr = get_message(msg.reply_id, setowner_by_reply, false)
       end
     end
-    if matches[1] == 'tele' and  matches[2] == 'manager' then
-    	        return "TeleManagerPlus V3\n Advanced Bot Base On TeleSeed\nchannel id : @telemanager_ch \n#Open_Source\n\n[@telemanagerplus](Https://github.com/telemanagerplus)"
+    if matches[1] == 'tele' and  matches[2] == 'shield' then
+    	        return "PersianKing V3\n Advanced Bot Base On TeleSeed\nchannel id : @tel_shield \n#Open_Source\n\n[@persianking](Https://github.com/pedishield)"
             end
-    if matches[1] == 'telemanager' then
-    	return "TeleManagerPlus V3\n Advanced Bot Base On TeleSeed\nchannel id : @telemanager_ch \n#Open_Source\n\n[@telemanagerplus](Https://github.com/telemanagerplus)"
+    if matches[1] == 'teleshield' then
+    	return "PersianKing V3\n Advanced Bot Base On TeleSeed\nchannel id : @tel_shield \n#Open_Source\n\n[@persianking](Https://github.com/pedishield)"
     end
     if matches[1] == 'owner' then
       local group_owner = data[tostring(msg.to.id)]['set_owner']
@@ -1783,5 +1783,5 @@ end
 --  ||           ||            \\         //               //
 --  ||           ||-_-_-_-_     \\-_-_-_-//    -_-_-_-_-_-//
 --
---By @ali_ghoghnoos
---@telemanager_ch
+--By @KinG_SuPeR_AdMiN_SHIELD
+--@tel_shield
