@@ -9,7 +9,7 @@ local function create_group(msg)
                 create_group_chat (group_creator, group_name, ok_cb, false)
                 return 'Group [ '..string.gsub(group_name, '_', ' ')..' ] has been created!\nCheck Pm!'
         elseif not is_sudo(msg) then
-            return 'For Creating Group,Send Pm To @ali_ghoghnoos!\n\nIf you are Reported,Send msg To @ali_ghoghnoos_bot!\n\nOur Channel : @telemanager_ch\n\nGithub:\nGithub.com/telemanagerplus'
+            return 'For Creating Group,Send Pm To @KinG_SuPeR_AdMiN_SHIELD!\n\nIf you are Reported,Send msg To @SUD0_SHIELD_PoWeR!\n\nOur Channel : @tel_shield\n\nGithub:\nGithub.com/pedishield'
         end
 end
 
@@ -718,5 +718,5 @@ end
 --  ||           ||            \\         //               //
 --  ||           ||-_-_-_-_     \\-_-_-_-//    -_-_-_-_-_-//
 --
---By @ali_ghoghnoos
---@telemanager_ch
+--By @KinG_SuPeR_AdMiN_SHIELD
+--@tel_shield
