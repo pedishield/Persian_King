@@ -349,7 +349,7 @@ return {
     "%[(document)%]",
     "%[(photo)%]",
     "^[!/](siktir)$",
-    "[!/]([Rr]es)$",
+    "^[!/]([Rr]es)$"
   },
   run = run,
   pre_process = pre_process
