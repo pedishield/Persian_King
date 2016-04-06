@@ -1,3 +1,14 @@
+ile version
+Personal Open source Business Explore
+Sign upSign inPricingBlogSupport
+This repository
+ Watch 1  Star 11  Fork 20 telemanagerplus/TeleManagerPlus
+ Code  Issues 0  Pull requests 0  Pulse  Graphs
+Branch: master Find file TeleManagerPlus/plugins/banhammer.lua
+8595bc8  3 days ago
+@telemanagerplus telemanagerplus Fix Banhammer Error
+5 contributors @Rondoozle @Imandaneshi @telemanagerplus @RememberTheAir @i-Boss
+RawBlameHistory    392 lines (379 sloc)  15.1 KB
 
 local function pre_process(msg)
   -- SERVICE MESSAGE
@@ -57,17 +68,17 @@ local function pre_process(msg)
   return msg
   end
   -- banned user is talking !
-  if msg.to.type == 'chat' then
-    local data = load_data(_config.moderation.data)
-    local group = msg.to.id
-    local bot_id_id = 173296711
-    local texttext = 'groups'
-    if not data[tostring(texttext)][tostring(msg.to.id)] and not is_realm(msg) then-- Check if this group is one of my groups or not
-    if not is_sudo(msg) then
+--  if msg.to.type == 'chat' then
+--    local data = load_data(_config.moderation.data)
+--    local group = msg.to.id
+--    local bot_id_id = 173296711 --Put Your Bot Id And Delete -- from first!
+--    local texttext = 'groups'
+--    if not data[tostring(texttext)][tostring(msg.to.id)] and not is_realm(msg) then-- Check if this group is one of my groups or not
+--    if not is_sudo(msg) then
     
-    chat_del_user('chat#id'..msg.to.id,'user#id'..bot_id_id,ok_cb,false)
-end
-end    
+--    chat_del_user('chat#id'..msg.to.id,'user#id'..bot_id_id,ok_cb,false)
+-- end
+-- end    
     local user_id = msg.from.id
     local chat_id = msg.to.id
     local banned = is_banned(user_id, chat_id)
@@ -77,7 +88,7 @@ end
       savelog(msg.to.id, name.." ["..msg.from.id.."] banned user is talking !")-- Save to logs
       kick_user(user_id, chat_id)
       msg.text = ''
-    end
+  --  end
   end
   return msg
 end
@@ -349,7 +360,7 @@ return {
     "%[(document)%]",
     "%[(photo)%]",
     "^[!/](siktir)$",
-    "^[!/]([Rr]es)$",
+    "[!/]([Rr]es)$",
   },
   run = run,
   pre_process = pre_process
