@@ -5,8 +5,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/telemanagerplus/TeleManagerPlus.git
-cd TeleManagerPlus
+git clone https://github.com/pedishield/Persian_King.git
+cd Persian_King
 chmod +x launchfix2.sh
 chmod +x launch.sh
 ./launchfix2.sh install
@@ -16,7 +16,7 @@ cd bin
 ./luarocks-5.2 install lub
 ./luarocks-5.2 install luaexpat
 cd $HOME
-cd TeleManagerPlus
+cd Persian_King
 ./launchfix2.sh install
 ./launch.sh # Enter a phone number & confirmation code.
 ```
